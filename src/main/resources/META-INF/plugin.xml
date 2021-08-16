@@ -1,0 +1,33 @@
+<idea-plugin>
+    <id>org.example.HllMVVMPlugin</id>
+    <name>MOTi Flutter MVVM</name>
+    <vendor email="lizubing1992@163.com" url="http://www.moti.com">MOTi Plugin</vendor>
+    <idea-version since-build="171.0"/>
+
+    <description><![CDATA[
+    <li>Moti Plugin</li>
+     <li>MVVM</li>
+      <li>Flutter Template</li>
+       <li>魔掌门App</li>
+        <li>MVVM 开发模板</li>
+         <li>可以自己修改</li>
+          <li>具体github 地址：https://github.com/lizubing1992/MotiMVVMFlutterPlugin</li>
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="com.moti.MvvmFlutterPlugin" class="com.moti.MvvmFlutterPlugin" text="MVVMFlutterPlugin"
+                description="Moti Flutter MVVM Template Generate Plugin">
+            <add-to-group group-id="GenerateGroup" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="shift meta M"/>
+        </action>
+    </actions>
+</idea-plugin>
