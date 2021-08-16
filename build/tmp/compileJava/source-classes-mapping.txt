@@ -1,2 +1,0 @@
-com/moti/MvvmFlutterPlugin.java
- com.moti.MvvmFlutterPlugin
